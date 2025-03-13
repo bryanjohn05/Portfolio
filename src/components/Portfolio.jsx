@@ -780,7 +780,7 @@ export default function Portfolio() {
             >
               <Github />
             </motion.a>
-            <motion.a
+            {/* <motion.a
               href="https://bryanjohn05.github.io/Portfolio/"
               target="_blank"
               whileHover={{ scale: 1.1, y: -5 }}
@@ -789,7 +789,7 @@ export default function Portfolio() {
               rel="noreferrer"
             >
               <span className="text-xl">🌐</span>
-            </motion.a>
+            </motion.a> */}
           </div>
         </div>
       </motion.div>
