@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FaBars, FaTimes, FaMoon, FaSun } from 'react-icons/fa'
 import { useTheme } from './ThemeContext'
-
+import logo from'/logo3.png'
 const navItems = [
   { name: 'Home', href: '#hero' },
   { name: 'About', href: '#about' },

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import logo from '/logo2.png';  // Update with the correct path
+import logo from '/logo3.png';  // Update with the correct path
 
 const Loader = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -14,7 +14,7 @@ const Loader = () => {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen bg-gradient-to-br from-[#114B5F] to-[#0c3542]">
       {/* Top text */}
-      <h1 className="text-4xl font-bold mb-4 animate-fadeInDown">            Loading...
+      <h1 className="text-4xl text-[#C6DABF] font-bold mb-4 animate-fadeInDown">            Loading...
       </h1>
       
       {/* Logo container */}
@@ -35,7 +35,7 @@ const Loader = () => {
       </div>
 
       {/* Bottom text */}
-      <p className="mt-4 text-2xl font-semibold animate-fadeInUp">
+      <p className="mt-4 text-2xl text-[#C6DABF] font-semibold animate-fadeInUp">
       Welcome to My Portfolio!      </p>
     </div>
   );

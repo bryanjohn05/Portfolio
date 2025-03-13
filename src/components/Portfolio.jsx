@@ -621,7 +621,7 @@ export default function Portfolio() {
           {
             title: "Hackathon At Engineer - NITK 2024",
             issuer: "National Institute of Technology Karnataka (NITK)",
-            link: "https://drive.google.com/file/d/1-RNXFDeOJndb605x9nocLeSO85KO5_xY/view?usp=drive_link",
+            link: "https://drive.google.com/file/d/13uNZLv56vjqu3DiB1SoIF8ZNfGrrXxxw/view?usp=drivesdk",
             icon: "💻",
           },
           {
