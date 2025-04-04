@@ -62,7 +62,7 @@ const Navbar = () => {
         scrolled ? 'bg-white/80 dark:bg-gray-900/80 shadow-md py-2' : 'bg-transparent py-4'
       }`}
     >
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div className="container left-1/2 mx-auto px-4 py-4 flex justify-between items-center">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -97,24 +97,24 @@ const Navbar = () => {
           </ul>
 
           {/* Theme Toggle */}
-          <button
+          {/* <button
             className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800"
             onClick={toggleTheme}
             aria-label="Toggle theme"
           >
             {theme === 'dark' ? <FaSun className="h-5 w-5" /> : <FaMoon className="h-5 w-5" />}
-          </button>
+          </button> */}
         </nav>
 
         {/* Mobile Menu Button */}
         <div className="md:hidden flex items-center gap-2">
-          <button
+          {/* <button
             className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800"
             onClick={toggleTheme}
             aria-label="Toggle theme"
           >
             {theme === 'dark' ? <FaSun className="h-5 w-5" /> : <FaMoon className="h-5 w-5" />}
-          </button>
+          </button> */}
           <button
             className="px-3 py-2 bg-[#114B5F]/10 dark:bg-[#114B5F] text-[#114B5F] dark:text-[#F3E9D2] rounded"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
