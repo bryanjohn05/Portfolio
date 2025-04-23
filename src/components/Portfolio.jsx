@@ -158,7 +158,7 @@ export default function Portfolio() {
                 </button>
 
                 <a
-                  href="/b.pdf"
+                  href="Bryan_Sohan_John_CV.pdf"
                   download="Bryan_Sohan_John_CV.pdf"
                   className="px-6 py-2 bg-transparent border border-[#1A936F] text-[#1A936F] dark:border-[#88D498] dark:text-[#88D498] rounded-full hover:bg-[#1A936F] hover:text-white dark:hover:bg-[#88D498] dark:hover:text-[#114B5F] transition-colors"
                 >
