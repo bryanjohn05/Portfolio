@@ -305,7 +305,7 @@ export default function Portfolio() {
                       </div>
                       <div>
                         <h4 className="text-base md:text-lg font-medium">Projects Completed</h4>
-                        <p className="text-[#114B5F]/60 dark:text-[#C6DABF] text-sm">Including Web AI & ML Applications</p>
+                        <p className="text-[#114B5F]/60 dark:text-[#C6DABF] text-sm">Including Web, AI & ML Applications</p>
                       </div>
                     </div>
 
