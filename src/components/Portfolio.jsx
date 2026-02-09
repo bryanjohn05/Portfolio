@@ -301,31 +301,31 @@ export default function Portfolio() {
                   <div className="relative p-6 md:p-8 space-y-6">
                     <div className="flex items-center gap-4">
                       <div className="w-12 h-12 md:w-14 md:h-14 bg-[#1A936F]/10 dark:bg-[#1A936F]/20 rounded-lg flex items-center justify-center">
-                        <span className="text-xl md:text-2xl font-bold text-[#1A936F] dark:text-[#88D498]">7+</span>
+                        <span className="text-xl md:text-2xl font-bold text-[#1A936F] dark:text-[#88D498]">17+</span>
                       </div>
                       <div>
                         <h4 className="text-base md:text-lg font-medium">Projects Completed</h4>
-                        <p className="text-[#114B5F]/60 dark:text-[#C6DABF] text-sm">Including web and ML applications</p>
+                        <p className="text-[#114B5F]/60 dark:text-[#C6DABF] text-sm">Including Web AI & ML Applications</p>
                       </div>
                     </div>
 
                     <div className="flex items-center gap-4">
                       <div className="w-12 h-12 md:w-14 md:h-14 bg-[#1A936F]/10 dark:bg-[#88D498]/20 rounded-lg flex items-center justify-center">
-                        <span className="text-xl md:text-2xl font-bold text-[#1A936F] dark:text-[#88D498]">3</span>
+                        <span className="text-xl md:text-2xl font-bold text-[#1A936F] dark:text-[#88D498]">4</span>
                       </div>
                       <div>
                         <h4 className="text-base md:text-lg font-medium">Internships</h4>
-                        <p className="text-[#114B5F]/60 dark:text-[#C6DABF] text-sm">In Salesforce and Web Development</p>
+                        <p className="text-[#114B5F]/60 dark:text-[#C6DABF] text-sm">In Salesforce, VisionFlow, Unified Mentor, Lara Tech Consulting</p>
                       </div>
                     </div>
 
                     <div className="flex items-center gap-4">
                       <div className="w-12 h-12 md:w-14 md:h-14 bg-[#1A936F]/10 dark:bg-[#88D498]/20 rounded-lg flex items-center justify-center">
-                        <span className="text-xl md:text-2xl font-bold text-[#1A936F] dark:text-[#88D498]">8.74</span>
+                        <span className="text-xl md:text-2xl font-bold text-[#1A936F] dark:text-[#88D498]">8.83</span>
                       </div>
                       <div>
                         <h4 className="text-base md:text-lg font-medium">CGPA</h4>
-                        <p className="text-[#114B5F]/60 dark:text-[#C6DABF] text-sm">Current academic performance</p>
+                        <p className="text-[#114B5F]/60 dark:text-[#C6DABF] text-sm">Graduated in 2025</p>
                       </div>
                     </div>
 
@@ -374,8 +374,8 @@ export default function Portfolio() {
                 {
                   degree: "BE IN ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
                   institution: "ST. JOSEPH ENGINEERING COLLEGE, MANGALORE",
-                  period: "11/2021 - Present",
-                  grade: "8.65 CGPA",
+                  period: "11/2021 - 07/2025",
+                  grade: "8.83 CGPA",
                   icon: "🎓",
                 },
                 {
@@ -442,12 +442,27 @@ export default function Portfolio() {
             <div className="max-w-4xl mx-auto">
               {[
                 {
+                  title: "Agentic AI Internship",
+                  company: "Lara Tech Consulting",
+                  period: "12/2025 - Present",
+                  location: "Remote / Hybrid",
+                  description:              
+                    "Currently engaged in an internship focused on Agentic AI, where I'm working on developing intelligent agents that can autonomously perform tasks and make decisions. Gaining hands-on experience in designing and implementing AI agents using cutting-edge technologies like Azure, Microsoft Foundry and frameworks.",},
+                {
                   title: "Web Development and Cloud Internship",
                   company: "Vision Flow Technologies Pvt. Ltd.",
-                  period: "02/2025 - Present",
+                  period: "02/2025 - 12/2025",
                   location: "Moodbidri, India",
                   description:
-                    "Currently completing a virtual internship focused on web development and cloud technologies. Gaining hands-on experience in building web applications and working with cloud-based solutions to create scalable, efficient systems.",
+                    " Completed a hybrid internship focused on web development and cloud technologies (AWS). Gaining hands-on experience in building web applications and working with cloud-based solutions to create scalable, efficient systems.",
+                },
+                {
+                  title: "Data Science Internship",
+                  company: "Unified Mentor",
+                  period: "05/2025 - 08/2025",
+                  location: "Remote",
+                  description:
+                    "Completed a remote internship focused on data science and machine learning. Gained hands-on experience in data analysis, model development, and deployment using Python, Jupyter Notebooks, and various data science libraries.",
                 },
                 {
                   title: "Salesforce: Administrator Virtual Internship",
@@ -749,7 +764,7 @@ export default function Portfolio() {
                     </div>
                     <div>
                       <h4 className="text-lg font-medium">Phone</h4>
-                      <p className="text-[#114B5F]/70 dark:text-[#C6DABF]">9900380315</p>
+                      <p className="text-[#114B5F]/70 dark:text-[#C6DABF]">+91 9900380315</p>
                     </div>
                   </div>
 
